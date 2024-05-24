@@ -1,0 +1,151 @@
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media screen and (max-width:1200px) {
+    .col {
+        font-size: 28px;
+    }
+    .services {
+        width: 500px;
+    }
+    .s1_2 {
+        margin-left: 50px;
+        width: 350px;
+        height: 300px;
+    } 
+    .s2 {
+        width: 500px;
+        margin-left: 110px;
+    }
+    .fservices {
+        width: 500px;
+    }
+    .fservices img {
+        margin-left: 50px;
+    }
+    .pricing .amount {
+        width: 280px;
+        height: 600px;
+        margin-left: 20px;
+    }
+    .pricing .amount p {
+        width: 280px;
+    }
+    .pricing .tag {
+        margin-left: 340px;
+    }
+    .pricing .pro  button:hover {
+        width: 150px;
+    }
+    .pricing .basic  button:hover {
+        width: 150px;
+    }
+    .pricing .premium button:hover {
+        width: 150px;
+    }
+   
+    .last3 {
+        margin-left:0px;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .name {
+        width: 100vw;
+    }
+    .flow {
+        width: 100vw;
+    }
+    .col {
+        font-size: 22px;
+    }
+    .nav {
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        margin-left: 60px;
+    }
+    .photo img {
+        width: 250px;
+        height: 200px;
+        margin-top: 80px;
+        margin-left: 180px;
+    } 
+    .services {
+        width: 400px;
+        margin-left: 10px;
+    }
+    .s1_2 {
+        margin-left: 20px;
+        width: 300px;
+        height: 250px;
+    } 
+    .tservices img {
+        width: 300px;
+        height: 220px;
+        margin-top: 50px;
+       
+    }
+    .s2 {
+        width: 400px;
+        margin-left: 50px;
+    }
+    .fservices {
+        width: 350px;
+        margin-bottom: 30px;
+    }
+    .fservices img {
+        width: 300px;
+        margin-left: 20px;
+    }
+    .pricing .amount {
+        width: 250px;
+        height: 600px;
+        margin-left: 20px;
+    }
+    .pricing .amount p {
+        width: 250px;
+    }
+    .last3 {
+        width: 90vw;
+    }
+    
+}
+@media screen and (max-width:425px) {
+    .nav {
+        width: 95vw;
+        display:grid;
+        grid-template-rows: 2;
+    }
+    .photo img {
+        margin-top:130px;
+    }
+    
+    .row  {
+        margin-top: 80px;
+       
+    }
+
+    .bg-4 {
+        width: 100vw;
+        margin-left: 30px;
+    }
+    .services {
+        width: 400px;
+    }
+    .s1_2  {
+        margin-top: 10vh;
+    }
+    .s2 {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        margin-left: 10px;
+    }
+    .pricing {
+        width: 100vw;
+        height: 100vh;
+    }
+    .last2 {
+        width: 900px;
+    }
+    
+}    

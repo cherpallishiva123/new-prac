@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.name {
+    
+}
+.main {
+   
+}
+/* NAV BAR CSS */
+.nav {
+  width: 98vw;
+  display: flex;
+  justify-content:space-around;
+  /*border: 1px solid black;*/
+  margin: 10px 10px 10px 10px ;
+  box-shadow: 5px 6px 10px   #381e1e;
+  background-color:cornsilk;    
+
+ 
+  
+}
+.nav ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}   
+.nav ul li {
+    list-style: none;
+    display: flex;
+    float: left;
+    margin-left: 20px;
+}
+.nav ul li a {
+    text-decoration:none;
+    font-size: 18px;     
+    margin-left: 30px;   
+}
+.nav ul li a:hover {
+    border-bottom: 2px solid brown;
+    
+}
+.drop {
+    margin-bottom: -10px;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+/* Build and grow css  PART-2*/
+.content {
+    clear:both;
+    width: 90vw;
+    height: 60vh;
+    margin-top: 20px; 
+
+}
+.content h1 {
+    color: rgb(28, 129, 87);
+    margin: 0px;
+    padding:0px ;
+}
+.photo {
+    width: 450px;
+    height: 300px;
+   /*border: 1px solid black; */
+    display: flex;
+    float: right;
+    margin-top: -160px;
+    
+    
+}
+.photo img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    
+}
+.text-typing {
+    padding: 10px 20px;
+    overflow: hidden;
+    color: chocolate;
+    font-size: 35px;
+    border-radius: 30px;
+    overflow:hidden;
+    position: relative;
+    
+   
+    
+}
+.text-typing p {
+    margin: 0px;
+    padding: 0px;
+    white-space:nowrap;
+    display: inline-block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    animation: typing 5s steps(20, end) both infinite, blink 2s infinite
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 100%;
+    }
+}
+@keyframes blink {
+    0%, 
+    100% {
+        border-right: 2px solid transparent;
+    }
+    90% {
+        
+    }
+}
+
+
+
+/* Projects Done */
+
+
+.col {
+    width: 98vw;   
+}
+.bg-1 {
+    border: solid 1px black;
+    margin-top:  10px;
+    margin-left: 20px;
+    width: 100px;
+    height: 150px;
+    display: grid;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;    
+}
+.bg-1:hover {
+    transform: scale(1.1);
+    background-color:rgba(228, 207, 179, 0.637);
+    border-radius: 10px;
+    border: 0px;
+    
+    
+}
+.bg-1 span {
+    display:flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkcyan;
+}
+.bg-2 {
+    border: solid 1px black;
+    margin: 10px;
+    width: 100px;
+    height: 150px;
+    margin-left: 20px;
+    transition: all 0.5s ease-in-out;
+    display: grid;
+    justify-content: center;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bg-2:hover {
+    transform: scale(1.1);
+    background-color:rgba(228, 207, 179, 0.637);
+    border-radius: 10px;
+    border: 0px;
+}
+.bg-2 span {
+    display: flex;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    color: crimson;
+}
+.bg-3 {
+    border: solid 1px black;
+    margin: 10px;
+    width: 100px;
+    height: 150px;
+    margin-left: 10px;
+    transition: all 0.5s ease-in-out;
+    display: grid;
+    justify-content: center;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bg-3:hover {
+    transform: scale(1.1);
+    background-color:rgba(228, 207, 179, 0.637);
+    border-radius: 10px;
+    border: 0px;
+}
+.bg-3 span{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornflowerblue;
+}
+.bg-4 {
+    border: solid 1px black;
+    margin: 10px;
+    width: 100px;
+    height: 150px;
+    margin-right: 30px;
+    transition: all 0.5s ease-in-out;
+    display: grid;
+    justify-content: center;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+.bg-4:hover {
+    transform: scale(1.1);
+    background-color:rgba(228, 207, 179, 0.637);
+    border-radius: 10px;
+    border: 0px;
+    
+}
+.bg-4 span{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chartreuse;
+}
+
+/* One Bar */
+.onebar {
+    border: solid 1px black;
+    border-radius: 50px;
+    width: 90vw;
+    margin-left:40px;
+    height: 20vh;
+    background-color: rgba(235, 243, 243, 0.39);
+
+}
+.company {
+    display:inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    animation: company 8s ease-in-out infinite;
+    overflow: hidden;    
+    
+
+}
+@keyframes company {
+    80%{
+        transform: translateX(5vw);
+        overflow: hidden;
+    }
+
+}
+.company img {
+    width: 150px;
+    height: 80px;
+}
+
+
+#work {
+    text-align: center;
+    color: darkred;
+    font-size: 30px;
+}
+#work span {
+    color: darkcyan;
+    font-size: 40px;
+}
+/* services */
+.servance {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.servance p {
+    font-size: 18px;
+    display: flex;
+    justify-content:center;
+
+}
+.servance b {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+   
+}
+.services {
+    /*border: 1px solid black; */ 
+    width: 600px;
+    height: 300px;
+    margin-left: 10px;
+
+}
+.services b {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.s1_2 {
+    width: 400px;
+    height: 350px;
+    margin-left: 150px;   
+}
+
+.tservices img {
+    width: 400px;
+    height: 320px;
+   
+}
+
+.s2 {
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 300px;
+   
+   /* border: 1px solid black; */
+}
+.s2_1 {
+
+   /* border: 1px solid black; */
+    
+}
+
+.tservices b {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+.fservices {
+    width: 600px;
+    height: 300px;
+    /*border: 1px solid black; */
+    color: rgb(0, 0, 0);
+    
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.fservices b {
+    justify-content: center;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+.btn_1 {
+    width:35vw;
+    display: inline;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: brown;
+    color: antiquewhite;
+}
+.fservices img {
+    width: 350px;
+    height: 300px;
+    margin-left: 150px;
+
+}
+/* Pricing Plans */
+.pricing .tag {
+    margin-left: 39%;
+    font-size: 30px;
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.pricing .heading {
+    clear: both;
+    display: flex;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    width: 98vw;
+}
+.pricing .amount {
+    margin-left: 5%;
+    border: solid 1px black;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    font-size:20px ;
+}
+.pricing .basic p {
+    border-bottom: 1px solid black;
+    width: 350px;
+    height: 50px;
+}
+.pricing .pro p {
+    border-bottom: 1px solid black;
+    width: 350px;
+    height: 50px;
+}
+.pricing .premium p {
+    border-bottom: 1px solid black;
+    width: 350px;
+    height: 50px;
+}
+
+.pricing .basic ul li {
+    text-decoration: dashed;
+    list-style-type:disc;
+    text-align: left;
+    line-height: 1.8;
+    margin-top: 10px;
+} 
+.pricing .basic button {
+    width: 150px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    transition: all 1s ease-in-out;
+}
+.pricing .basic button:hover {
+    width: 300px;
+    background-color: cadetblue;
+}
+
+.pricing .pro ul li {
+    text-decoration: dashed;
+    list-style-type: disc;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 18px;
+}
+.pricing .pro button {
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    transition: all 1s ease-in-out;
+}
+.pricing .pro button:hover {
+    width: 300px;
+    background-color: cadetblue;
+}
+.pricing .premium ul li {
+    text-decoration: dashed;
+    list-style-type:disc;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.pricing .premium button {
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    transition: all 1s ease-in-out;
+}
+.pricing .premium button:hover {
+    width: 300px;
+    background-color: cadetblue;
+}
+/* Last Border */
+
+.flow {
+    /* border:solid 1px black; */
+    width: 98vw;
+    height: 280px;
+    display: flex;
+    float: left;
+    margin: 10px;
+}
+.last1 {
+    border: transparent;
+    width: 350px;
+    height: 280px;    
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px; 
+}
+.last1 input {
+    margin-top: 20px;
+    display:flex;
+    float: left;       
+}
+.last1 p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    text-align: center;
+}
+.last1 h2 {
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-size: 48px;
+    color: cornflowerblue;
+}
+.last1 h2 span {
+    color: coral;
+    font-size: 40px;
+}
+.last2 {
+    border:transparent;
+    width: 400px;
+    height: 280px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.last2 ul li {
+    line-height: 1.8;
+}
+.last2 span {
+    margin-left: 50px;
+    text-decoration:underline;
+    color: rgb(54, 75, 33);
+    margin-top: 20px;
+}
+.last2 ul li {
+    list-style: none;
+}
+.last3 {
+    border:transparent;
+    width: 450px;
+    height: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 60px;   
+}
+.last3 p {
+    margin-left: 10px;
+}
+.email {
+    font-size: 22px;
+    margin-left: 20px;
+    width: 240px;
+    height: 40px;
+    font-weight: lighter;   
+}
+.sub {
+    width: 75px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 18px;    
+}
+.icon {
+    margin-top: 10px;
+    font-size: 28px;   
+}
+  
